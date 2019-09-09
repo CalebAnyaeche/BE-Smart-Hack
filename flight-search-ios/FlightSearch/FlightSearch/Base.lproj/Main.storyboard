@@ -69,7 +69,7 @@
                                                                             </label>
                                                                         </subviews>
                                                                     </stackView>
-                                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="airport or city" minimumFontSize="15" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="X3E-qF-RSf">
+                                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="airport code" minimumFontSize="15" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="X3E-qF-RSf">
                                                                         <rect key="frame" x="15" y="33" width="355" height="19"/>
                                                                         <accessibility key="accessibilityConfiguration" hint="Opens search" identifier="FirstName" label="First name">
                                                                             <accessibilityTraits key="traits" button="YES"/>
@@ -134,7 +134,7 @@
                                                                             <constraint firstAttribute="height" constant="0.5" id="EWO-GQ-C6v"/>
                                                                         </constraints>
                                                                     </view>
-                                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="airport or city" minimumFontSize="15" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="YE1-5H-Eob">
+                                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="airport code" minimumFontSize="15" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="YE1-5H-Eob">
                                                                         <rect key="frame" x="14" y="33" width="356" height="19"/>
                                                                         <accessibility key="accessibilityConfiguration" hint="Opens search" identifier="LastName" label="Last name">
                                                                             <accessibilityTraits key="traits" button="YES"/>
