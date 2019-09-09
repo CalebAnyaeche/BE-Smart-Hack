@@ -1,0 +1,376 @@
+[
+    {
+        "flightNumber": "9825",
+        "origin": {
+            "code": "DFW",
+            "city": "Dallas-Fort Worth",
+            "location": {
+                "latitude": 32.8998,
+                "longitude": 97.0403
+            }
+        },
+        "destination": {
+            "code": "LAX",
+            "city": "Los Angeles",
+            "location": {
+                "latitude": 33.9416,
+                "longitude": 118.4085
+            }
+        },
+        "distance": 1234,
+        "duration": {
+            "locale": "3h 12m",
+            "hours": 3,
+            "minutes": 12
+        },
+        "aircraft": {
+            "model": "321",
+            "passengerCapacity": {
+                "total": 181,
+                "main": 165,
+                "first": 16
+            },
+            "speed": 400
+        }
+    },
+    {
+        "flightNumber": "0087",
+        "origin": {
+            "code": "DFW",
+            "city": "Dallas-Fort Worth",
+            "location": {
+                "latitude": 32.8998,
+                "longitude": 97.0403
+            }
+        },
+        "destination": {
+            "code": "LAX",
+            "city": "Los Angeles",
+            "location": {
+                "latitude": 33.9416,
+                "longitude": 118.4085
+            }
+        },
+        "distance": 1234,
+        "duration": {
+            "locale": "3h 5m",
+            "hours": 3,
+            "minutes": 5
+        },
+        "aircraft": {
+            "model": "738",
+            "passengerCapacity": {
+                "total": 160,
+                "main": 144,
+                "first": 16
+            },
+            "speed": 400
+        }
+    },
+    {
+        "flightNumber": "4467",
+        "origin": {
+            "code": "DFW",
+            "city": "Dallas-Fort Worth",
+            "location": {
+                "latitude": 32.8998,
+                "longitude": 97.0403
+            }
+        },
+        "destination": {
+            "code": "LAX",
+            "city": "Los Angeles",
+            "location": {
+                "latitude": 33.9416,
+                "longitude": 118.4085
+            }
+        },
+        "distance": 1234,
+        "duration": {
+            "locale": "3h 8m",
+            "hours": 3,
+            "minutes": 8
+        },
+        "aircraft": {
+            "model": "738",
+            "passengerCapacity": {
+                "total": 160,
+                "main": 144,
+                "first": 16
+            },
+            "speed": 400
+        }
+    },
+    {
+        "flightNumber": "2900",
+        "origin": {
+            "code": "DFW",
+            "city": "Dallas-Fort Worth",
+            "location": {
+                "latitude": 32.8998,
+                "longitude": 97.0403
+            }
+        },
+        "destination": {
+            "code": "LAX",
+            "city": "Los Angeles",
+            "location": {
+                "latitude": 33.9416,
+                "longitude": 118.4085
+            }
+        },
+        "distance": 1234,
+        "duration": {
+            "locale": "3h 17m",
+            "hours": 3,
+            "minutes": 17
+        },
+        "aircraft": {
+            "model": "321",
+            "passengerCapacity": {
+                "total": 181,
+                "main": 165,
+                "first": 16
+            },
+            "speed": 400
+        }
+    },
+    {
+        "flightNumber": "5252",
+        "origin": {
+            "code": "DFW",
+            "city": "Dallas-Fort Worth",
+            "location": {
+                "latitude": 32.8998,
+                "longitude": 97.0403
+            }
+        },
+        "destination": {
+            "code": "LAX",
+            "city": "Los Angeles",
+            "location": {
+                "latitude": 33.9416,
+                "longitude": 118.4085
+            }
+        },
+        "distance": 1234,
+        "duration": {
+            "locale": "3h 19m",
+            "hours": 3,
+            "minutes": 19
+        },
+        "aircraft": {
+            "model": "321",
+            "passengerCapacity": {
+                "total": 181,
+                "main": 165,
+                "first": 16
+            },
+            "speed": 400
+        }
+    },
+    {
+        "flightNumber": "7566",
+        "origin": {
+            "code": "DFW",
+            "city": "Dallas-Fort Worth",
+            "location": {
+                "latitude": 32.8998,
+                "longitude": 97.0403
+            }
+        },
+        "destination": {
+            "code": "LAX",
+            "city": "Los Angeles",
+            "location": {
+                "latitude": 33.9416,
+                "longitude": 118.4085
+            }
+        },
+        "distance": 1234,
+        "duration": {
+            "locale": "3h 11m",
+            "hours": 3,
+            "minutes": 11
+        },
+        "aircraft": {
+            "model": "321",
+            "passengerCapacity": {
+                "total": 181,
+                "main": 165,
+                "first": 16
+            },
+            "speed": 400
+        }
+    },
+    {
+        "flightNumber": "4937",
+        "origin": {
+            "code": "DFW",
+            "city": "Dallas-Fort Worth",
+            "location": {
+                "latitude": 32.8998,
+                "longitude": 97.0403
+            }
+        },
+        "destination": {
+            "code": "LAX",
+            "city": "Los Angeles",
+            "location": {
+                "latitude": 33.9416,
+                "longitude": 118.4085
+            }
+        },
+        "distance": 1234,
+        "duration": {
+            "locale": "3h 16m",
+            "hours": 3,
+            "minutes": 16
+        },
+        "aircraft": {
+            "model": "738",
+            "passengerCapacity": {
+                "total": 160,
+                "main": 144,
+                "first": 16
+            },
+            "speed": 400
+        }
+    },
+    {
+        "flightNumber": "4490",
+        "origin": {
+            "code": "DFW",
+            "city": "Dallas-Fort Worth",
+            "location": {
+                "latitude": 32.8998,
+                "longitude": 97.0403
+            }
+        },
+        "destination": {
+            "code": "LAX",
+            "city": "Los Angeles",
+            "location": {
+                "latitude": 33.9416,
+                "longitude": 118.4085
+            }
+        },
+        "distance": 1234,
+        "duration": {
+            "locale": "3h 19m",
+            "hours": 3,
+            "minutes": 19
+        },
+        "aircraft": {
+            "model": "757",
+            "passengerCapacity": {
+                "total": 176,
+                "main": 160,
+                "first": 16
+            },
+            "speed": 380
+        }
+    },
+    {
+        "flightNumber": "7759",
+        "origin": {
+            "code": "DFW",
+            "city": "Dallas-Fort Worth",
+            "location": {
+                "latitude": 32.8998,
+                "longitude": 97.0403
+            }
+        },
+        "destination": {
+            "code": "LAX",
+            "city": "Los Angeles",
+            "location": {
+                "latitude": 33.9416,
+                "longitude": 118.4085
+            }
+        },
+        "distance": 1234,
+        "duration": {
+            "locale": "3h 15m",
+            "hours": 3,
+            "minutes": 15
+        },
+        "aircraft": {
+            "model": "321",
+            "passengerCapacity": {
+                "total": 181,
+                "main": 165,
+                "first": 16
+            },
+            "speed": 400
+        }
+    },
+    {
+        "flightNumber": "2162",
+        "origin": {
+            "code": "DFW",
+            "city": "Dallas-Fort Worth",
+            "location": {
+                "latitude": 32.8998,
+                "longitude": 97.0403
+            }
+        },
+        "destination": {
+            "code": "LAX",
+            "city": "Los Angeles",
+            "location": {
+                "latitude": 33.9416,
+                "longitude": 118.4085
+            }
+        },
+        "distance": 1234,
+        "duration": {
+            "locale": "3h 6m",
+            "hours": 3,
+            "minutes": 6
+        },
+        "aircraft": {
+            "model": "738",
+            "passengerCapacity": {
+                "total": 160,
+                "main": 144,
+                "first": 16
+            },
+            "speed": 400
+        }
+    },
+    {
+        "flightNumber": "3141",
+        "origin": {
+            "code": "DFW",
+            "city": "Dallas-Fort Worth",
+            "location": {
+                "latitude": 32.8998,
+                "longitude": 97.0403
+            }
+        },
+        "destination": {
+            "code": "LAX",
+            "city": "Los Angeles",
+            "location": {
+                "latitude": 33.9416,
+                "longitude": 118.4085
+            }
+        },
+        "distance": 1234,
+        "duration": {
+            "locale": "3h 27m",
+            "hours": 3,
+            "minutes": 27
+        },
+        "aircraft": {
+            "model": "757",
+            "passengerCapacity": {
+                "total": 176,
+                "main": 160,
+                "first": 16
+            },
+            "speed": 380
+        }
+    }
+]
