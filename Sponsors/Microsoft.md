@@ -34,11 +34,12 @@ Microsoft will be on-site throughout the event to assist you.
 ### Event Support
 <!-- Add every member of your team here, provide as much detail as possible and use the format below -->
 <!-- Leave each </br> where it is, they are used to make the formatting here nice! -->
-Keven Markham
-kevenm@microsoft.com
-text: 972-333-9124
 
-Chad Liberto
-chlibert@microsoft.com
-214-394-3091
+Keven Markham </br>
+kevenm@microsoft.com </br>
+text: 972-333-9124 </br>
+	
+Chad Liberto </br>
+chlibert@microsoft.com </br>
+214-394-3091 </br>
 
