@@ -2,33 +2,51 @@
 
 # Teradata
 <!-- What does your company do? What makes you interesting? Why should a team use your tech? Enter text below: -->
-With Teradata Vantage, we provide you with a unified, integrated environment that delivers the best analytic functions and engines at scale. Teradata delivers real-time, intelligent answers, leveraging 100% of the relevant
-data, regardless of scale or volume of query.
+
+Teradata offers Vantage- a modern cloud analytics platform that combines open source and commercial analytic technologies together to operationalize insights, 
+solve complex business problems, and enable descriptive, predictive and prescriptive analytics, that lead to autonomous decision-making.
 
 # Challenge Info
 <!-- What are you looking for? How will teams be judged? Enter text below:  -->
-_Arriving Soon_
+
+The team that best leverages Vantage Data and Analytic capabilities within their hack, solving business problems will be 
+selected to receive our prize 
 
 # Prize Info
 <!-- What is your sponsor prize? Is it one for each member? Enter text below: -->
-_Arriving Soon_
+
+Bose QuietComfort 35 II Wireless Bluetooth Headphones, Noise-Cancelling, with Alexa voice control, enabled with Bose AR – Black
+One for each team member
 
 # Getting Started
 <!-- How do teams use your tech? Do you have links to resources? Are there directories here that include sample projects? Enter text below: -->
-_Arriving Soon_
+
+Load your data into the environment using Teradata Studio (available @ Teradata Downloads site below), and start analyzing it with SQL, R or Python.
+
+TechBytes Videos:
+https://www.youtube.com/playlist?list=PL94YoXtBVbdqQW4CdajZ9NIyzxs6v2q8A
+
+Teradata Downloads:
+https://downloads.teradata.com
+
+Teradata Documentation:
+https://docs.teradata.com
+
 
 # Support
 
-Teradata will be on-site throughout the event to assist you.
+We will be on-site throughout the event to assist you.
 
 ### Event Support
 
-Example Smith <br/>
-Email: Example@teradata.com <br/>
-Cell: (xxx) xxx-xxxx <br/>
+Lou Bogdos</br>
+Lou.Bogdos@teradata.com</br>
+817-832-2856</br>
 
+Gerik Grant</br>
+Gerik.Grant@teradata.com</br>
+407-590-7325</br>
 
-# More About Us
-<!-- Optional: Anything else you want to say! Enter text below: -->
-
-https://www.teradata.com/Products/Software/Vantage
+Vily Dardanes</br>
+vily.dardanes@teradata.com</br>
+224-567-0704</br>
