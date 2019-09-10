@@ -27,7 +27,6 @@ Go to https://aka.ms/azure-services-map for all your documentation, training vid
 
 Learn Azure by visiting:  https://docs.microsoft.com/en-us/learn/
 
-
 # Support
 
 Microsoft will be on-site throughout the event to assist you.
@@ -42,5 +41,4 @@ text: 972-333-9124
 Chad Liberto
 chlibert@microsoft.com
 214-394-3091
-
 
