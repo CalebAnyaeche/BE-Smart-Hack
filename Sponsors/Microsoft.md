@@ -25,6 +25,8 @@ Winner Prize:  Backpack with Office 365 subscription and Headphones.  Included i
 <!-- How do teams use your tech? Do you have links to resources? Are there directories here that include sample projects? Enter text below: -->
 Go to https://aka.ms/azure-services-map for all your documentation, training video’s and Step by Step Tutorials.  
 
+Learn about Xamarin and create amazing cloud-powered mobile apps faster : https://azure.microsoft.com/en-us/features/xamarin/
+
 Learn Azure by visiting:  https://docs.microsoft.com/en-us/learn/
 
 # Support
