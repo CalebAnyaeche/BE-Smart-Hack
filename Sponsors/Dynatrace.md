@@ -1,9 +1,10 @@
-<img src="./logos/Intel.png" height="100"/>   
+<img src="./logos/Dynatrace.png" height="100"/>   
 
 
-# Intel Corp
+# DYNATRACE
 <!-- What does your company do? What makes you interesting? Why should a team use your tech? Enter text below: --> 
-Do you want to easily add Computer Vision to your BE-hack Entry. Intel's OpenVINO toolkit optimizes Inference at the Edge using trained neural networks to add Vision as a Sensor.  Use the working examples of Face and Object Recognition, Emotions  or Gender/Age to jumpstart your application.
+_Arriving Soon_
+
 
 # Challenge Info
 <!-- What are you looking for? How will teams be judged? Enter text below:  -->
