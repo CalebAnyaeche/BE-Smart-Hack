@@ -33,10 +33,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-
         <TextView
-            tools:text="3 hrs"
-            android:id="@+id/duration"
+            tools:text="Flight #1"
+            android:id="@+id/flight_number"
             android:layout_alignParentBottom="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />

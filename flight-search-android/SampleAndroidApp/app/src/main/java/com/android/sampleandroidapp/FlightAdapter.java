@@ -34,7 +34,7 @@ class FlightAdapter extends RecyclerView.Adapter<FlightAdapter.FlightViewHolder>
 
         holder.origin_tv.setText(flight.getOrigin().getCode());
         holder.destination_tv.setText(flight.getDestination().getCode());
-        holder.duration_tv.setText(flight.getDuration().getLocale());
+        holder.flight_number_tv.setText("Flight #" + flight.getFlightNumber());
     }
 
     @Override
@@ -46,14 +46,14 @@ class FlightAdapter extends RecyclerView.Adapter<FlightAdapter.FlightViewHolder>
 
         private TextView origin_tv;
         private TextView destination_tv;
-        private TextView duration_tv;
+        private TextView flight_number_tv;
 
         public FlightViewHolder(@NonNull View itemView) {
             super(itemView);
 
             origin_tv = itemView.findViewById(R.id.origin);
             destination_tv = itemView.findViewById(R.id.destination);
-            duration_tv = itemView.findViewById(R.id.duration);
+            flight_number_tv = itemView.findViewById(R.id.flight_number);
         }
     }
 }
