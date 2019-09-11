@@ -1,6 +1,11 @@
 # flight-search-ios
 
-A simple flight search app that gives you a list to your favorite destination.
+A simple flight search app that gives you a list flights to your favorite destination.
+
+# Requirement
+- how to search for flight.
+- How to display
+- Flight of flights
 
 ## UI
 
@@ -277,4 +282,8 @@ Airport code for destination. Possible values: "DFW", "JFK", "LAX", "ORD"
 
 ## Actionable button in swift
 
-## Loading data into a tableView cell in swift
+## Loading data from response
+
+## Testing
+
+Making sure your implementation meet the requirements
