@@ -2,7 +2,6 @@
 //  FlightSearchViewController_DataPicker.swift
 //  FlightSearch
 //
-//  Created by Caroline Nakaye on 9/8/19.
 //  Copyright © 2019 American Airlines. All rights reserved.
 //
 
@@ -19,25 +18,25 @@ extension FlightSearchViewController: UIPickerViewDelegate, UIPickerViewDataSour
 
     func pickerView( _ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         if pickerView.tag == 0 {
-            return fromAirports.count
+            return Constants.Airports.origin.count
         } else {
-            return toAirports.count
+            return Constants.Airports.destination.count
         }
     }
 
     func pickerView( _ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         if pickerView.tag == 0 {
-            return fromAirports[row]
+            return Constants.Airports.origin[row]
         } else {
-            return toAirports[row]
+            return Constants.Airports.destination[row]
         }
     }
 
     func pickerView( _ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         if pickerView.tag == 0 {
-            originTextField?.text = fromAirports[row]
+            originTextField?.text = Constants.Airports.origin[row]
         } else {
-            destinationTextField?.text = toAirports[row]
+            destinationTextField?.text = Constants.Airports.destination[row]
         }
     }
 

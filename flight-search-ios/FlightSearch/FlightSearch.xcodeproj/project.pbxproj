@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E7896AF2329DB5D00A247A7 /* URLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7896AE2329DB5D00A247A7 /* URLProtocol.swift */; };
+		2E7896B1232A02D000A247A7 /* FlightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7896B0232A02D000A247A7 /* FlightTableViewCell.swift */; };
+		2E7896B3232A0BF300A247A7 /* FlightSearch_UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7896B2232A0BF300A247A7 /* FlightSearch_UIView.swift */; };
 		2E99CEE32328AC510054045C /* FlightSearchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E99CEE22328AC510054045C /* FlightSearchConfiguration.swift */; };
 		2E99CEE72328B92E0054045C /* FlightListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E99CEE62328B92E0054045C /* FlightListTableViewController.swift */; };
 		2E99CEE92328C1550054045C /* BundleRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E99CEE82328C1550054045C /* BundleRegistry.swift */; };
@@ -15,7 +18,6 @@
 		2EBF11EF2325C3790074D710 /* FlightSearchViewController_AirportPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBF11EE2325C3790074D710 /* FlightSearchViewController_AirportPicker.swift */; };
 		2EBF11F62325C8010074D710 /* flights.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EBF11F52325C8010074D710 /* flights.json */; };
 		2EBF11F82325C97E0074D710 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBF11F72325C97E0074D710 /* Flight.swift */; };
-		2EBF11FA2325F1450074D710 /* MockJSONResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBF11F92325F1450074D710 /* MockJSONResponse.swift */; };
 		2EF7532723257D3E0044BF48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF7532623257D3E0044BF48 /* AppDelegate.swift */; };
 		2EF7532C23257D3E0044BF48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EF7532A23257D3E0044BF48 /* Main.storyboard */; };
 		2EF7532E23257D3F0044BF48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EF7532D23257D3F0044BF48 /* Assets.xcassets */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E7896AE2329DB5D00A247A7 /* URLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLProtocol.swift; sourceTree = "<group>"; };
+		2E7896B0232A02D000A247A7 /* FlightTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTableViewCell.swift; sourceTree = "<group>"; };
+		2E7896B2232A0BF300A247A7 /* FlightSearch_UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSearch_UIView.swift; sourceTree = "<group>"; };
 		2E99CEE22328AC510054045C /* FlightSearchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSearchConfiguration.swift; sourceTree = "<group>"; };
 		2E99CEE62328B92E0054045C /* FlightListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightListTableViewController.swift; sourceTree = "<group>"; };
 		2E99CEE82328C1550054045C /* BundleRegistry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BundleRegistry.swift; sourceTree = "<group>"; };
@@ -42,7 +47,6 @@
 		2EBF11EE2325C3790074D710 /* FlightSearchViewController_AirportPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSearchViewController_AirportPicker.swift; sourceTree = "<group>"; };
 		2EBF11F52325C8010074D710 /* flights.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = flights.json; sourceTree = "<group>"; };
 		2EBF11F72325C97E0074D710 /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
-		2EBF11F92325F1450074D710 /* MockJSONResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockJSONResponse.swift; sourceTree = "<group>"; };
 		2EF7532323257D3E0044BF48 /* FlightSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EF7532623257D3E0044BF48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EF7532B23257D3E0044BF48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 				2EBF11EC2325C3320074D710 /* FlightSearchViewController_DatePicker.swift */,
 				2EBF11EE2325C3790074D710 /* FlightSearchViewController_AirportPicker.swift */,
 				2E99CEE62328B92E0054045C /* FlightListTableViewController.swift */,
+				2E7896B0232A02D000A247A7 /* FlightTableViewCell.swift */,
+				2E7896B2232A0BF300A247A7 /* FlightSearch_UIView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -94,6 +100,7 @@
 		2EBF11F22325C6FA0074D710 /* IO */ = {
 			isa = PBXGroup;
 			children = (
+				2E7896AE2329DB5D00A247A7 /* URLProtocol.swift */,
 			);
 			path = IO;
 			sourceTree = "<group>";
@@ -110,7 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				2EBF11F52325C8010074D710 /* flights.json */,
-				2EBF11F92325F1450074D710 /* MockJSONResponse.swift */,
 			);
 			path = MockData;
 			sourceTree = "<group>";
@@ -262,6 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E7896B3232A0BF300A247A7 /* FlightSearch_UIView.swift in Sources */,
+				2E7896B1232A02D000A247A7 /* FlightTableViewCell.swift in Sources */,
 				2E99CEE32328AC510054045C /* FlightSearchConfiguration.swift in Sources */,
 				2E99CEE72328B92E0054045C /* FlightListTableViewController.swift in Sources */,
 				2E99CEE92328C1550054045C /* BundleRegistry.swift in Sources */,
@@ -269,7 +277,7 @@
 				2EF7532723257D3E0044BF48 /* AppDelegate.swift in Sources */,
 				2EBF11F82325C97E0074D710 /* Flight.swift in Sources */,
 				2EBF11EF2325C3790074D710 /* FlightSearchViewController_AirportPicker.swift in Sources */,
-				2EBF11FA2325F1450074D710 /* MockJSONResponse.swift in Sources */,
+				2E7896AF2329DB5D00A247A7 /* URLProtocol.swift in Sources */,
 				2EBF11ED2325C3320074D710 /* FlightSearchViewController_DatePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

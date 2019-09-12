@@ -3,7 +3,6 @@
 //  FlightSearch
 //
 //  Created by Caroline Nakaye on 9/8/19.
-//  Copyright © 2019 American Airlines. All rights reserved.
 //
 
 import Foundation
@@ -15,6 +14,7 @@ struct Flight: Decodable {
     let destination: Airport
     let distance: Int
     let duration: Duration
+    let aircraft: Aircraft
 }
 
 struct Airport: Decodable {
@@ -24,12 +24,17 @@ struct Airport: Decodable {
 }
 
 struct Location: Decodable { 
-    let latitude: String
-    let longitude: String
+    let latitude: Double
+    let longitude: Double
 }
 
 struct Duration: Decodable {
     let locale: String
     let hours: Int
     let minutes: Int
+}
+
+struct Aircraft: Decodable {
+    let model: String
+    let speed: Int
 }

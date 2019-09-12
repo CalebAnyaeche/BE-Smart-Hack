@@ -2,7 +2,6 @@
 //  AppDelegate.swift
 //  FlightSearch
 //
-//  Created by Caroline Nakaye on 9/8/19.
 //  Copyright © 2019 American Airlines. All rights reserved.
 //
 

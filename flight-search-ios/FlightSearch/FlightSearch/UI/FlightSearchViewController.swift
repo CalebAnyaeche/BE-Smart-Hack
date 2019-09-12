@@ -2,7 +2,6 @@
 //  ViewController.swift
 //  FlightSearch
 //
-//  Created by Caroline Nakaye on 9/8/19.
 //  Copyright © 2019 American Airlines. All rights reserved.
 //
 
@@ -18,8 +17,6 @@ class FlightSearchViewController: UIViewController {
     let datePicker = UIDatePicker()
     let toAirportPicker = UIPickerView()
     let fromAirportPicker = UIPickerView()
-    let toAirports = ["DFW", "JFK", "LAX", "ORD", "AUS"]
-    let fromAirports = ["DFW", "JFK", "LAX", "ORD"]
 
     struct Constants {
         enum Buttons {
@@ -37,6 +34,11 @@ class FlightSearchViewController: UIViewController {
             static let radius: CGFloat = 2.0
             static let color: UIColor = .gray
         }
+
+        enum Airports {
+            static let origin = ["DFW", "JFK", "LAX", "ORD"]
+            static let destination = ["DFW", "JFK", "LAX", "ORD"]
+        }
     }
 
     override func viewDidLoad() {
@@ -49,6 +51,34 @@ class FlightSearchViewController: UIViewController {
     @IBAction func searchButtonTapped(_ sender: Any) {
     }
 
+    func getFlights() -> [Flight]? {
+        guard
+            let from = originTextField?.text,
+            let to = destinationTextField?.text,
+            let date =  dateTextField?.text
+            else {
+                return []
+        }
+        let url = String("https://flight-engine-behack2019.herokuapp.com/flights?date=\(date)&origin=\(from)&destination=\(to)")
+        let flights = try? URLProtocol.init().makeGETRequest(urlString: url)
+        return flights
+
+    }
+    
+
+    // MARK: - Segue way
+    override public func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard
+            let identifier = segue.identifier,
+            identifier == "flightSearchTapped",
+            let navController = segue.destination as? UINavigationController,
+            let flightFlightVC = navController.children[0] as? FlightListTableViewController,
+            let flights = getFlights()
+            else {
+                return
+        }
+        flightFlightVC.flights = flights
+    }
 
 
    func addShadowToContainerCardView() {
@@ -58,24 +88,5 @@ class FlightSearchViewController: UIViewController {
                             radius: Constants.Shadow.radius)
    }
 
-}
-
-extension UIView {
-
-    static var textViewInsets: UIEdgeInsets {
-        return UIEdgeInsets(top: 15, left: 15, bottom: 15, right: 15)
-    }
-
-    func addShadow(color: UIColor, offset: CGSize, opacity: CGFloat, radius: CGFloat) {
-        layer.shadowColor = color.cgColor
-        layer.shadowOffset = offset
-        layer.shadowOpacity = Float(opacity)
-        layer.shadowRadius = radius
-    }
-
-    func addShadow(color: UIColor, offset: CGSize, opacity: CGFloat, radius: CGFloat, maskToBounds: Bool) {
-        addShadow(color: color, offset: offset, opacity: opacity, radius: radius)
-        layer.masksToBounds = maskToBounds
-    }
 }
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14865.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ivj-Yx-0b8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ivj-Yx-0b8">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14819.2"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,7 +11,7 @@
         <array key="AmericanSans-Medium.otf">
             <string>AmericanSansMedium</string>
         </array>
-        <array key="AmericanSans-Regular.ttf">
+        <array key="AmericanSans-Regular.otf">
             <string>AmericanSans</string>
         </array>
     </customFonts>
@@ -104,7 +104,7 @@
                                                                 <rect key="frame" x="0.0" y="70" width="384" height="70"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="MTs-oa-nAm">
-                                                                        <rect key="frame" x="14" y="10" width="14.5" height="16"/>
+                                                                        <rect key="frame" x="14" y="10" width="15" height="16"/>
                                                                         <subviews>
                                                                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="validationWarning" translatesAutoresizingMaskIntoConstraints="NO" id="OGG-6z-YCJ">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="0.0" height="16"/>
@@ -114,7 +114,7 @@
                                                                                 </constraints>
                                                                             </imageView>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BYf-KB-U4h">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="14.5" height="16"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="15" height="16"/>
                                                                                 <accessibility key="accessibilityConfiguration">
                                                                                     <bool key="isElement" value="NO"/>
                                                                                 </accessibility>
@@ -235,7 +235,7 @@
                                                                 </state>
                                                                 <connections>
                                                                     <action selector="searchButtonTapped:" destination="Ivj-Yx-0b8" eventType="touchUpInside" id="U8I-yy-WOK"/>
-                                                                    <segue destination="1ui-mg-jpK" kind="show" id="Usg-FN-qO1"/>
+                                                                    <segue destination="1ui-mg-jpK" kind="show" identifier="flightSearchTapped" id="Usg-FN-qO1"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -475,7 +475,14 @@
                             <outlet property="delegate" destination="7KT-Ty-OfW" id="CKG-A9-HH4"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="LAX to DFW" id="s9m-AN-iux"/>
+                    <navigationItem key="navigationItem" title="LAX to DFW" largeTitleDisplayMode="never" id="s9m-AN-iux">
+                        <barButtonItem key="rightBarButtonItem" image="close" id="yVk-sQ-zqd">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="closeButtontapped:" destination="7KT-Ty-OfW" id="abc-ET-dYe"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9ZN-m8-k50" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -503,6 +510,7 @@
     <resources>
         <image name="aa-icon" width="188" height="188"/>
         <image name="arrow" width="28" height="28"/>
+        <image name="close" width="30" height="30"/>
         <image name="validationWarning" width="16" height="16"/>
     </resources>
 </document>

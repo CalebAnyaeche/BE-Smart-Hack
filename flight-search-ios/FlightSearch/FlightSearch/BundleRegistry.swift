@@ -2,7 +2,6 @@
 //  BundleRegistry.swift
 //  FlightSearch
 //
-//  Created by Caroline Nakaye on 9/10/19.
 //  Copyright © 2019 American Airlines. All rights reserved.
 //
 
