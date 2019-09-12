@@ -1,0 +1,3 @@
+[submodule "flight-search-web"]
+	path = flight-search-web
+	url = https://github.com/jordanculver/Flight-Finder-Web-Demo.git
