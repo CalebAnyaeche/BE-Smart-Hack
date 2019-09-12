@@ -1,17 +1,18 @@
 # flight-search-ios
 
-A simple flight search app that gives you a list flights to your favorite destination.
+A simple flight search app that gives you a detailed list of flights to your favorite destination.
 
-# Requirement
-- how to search for flight.
-- How to display
-- Flight of flights
 
 ## UI
 
 Launch Screen | Search Flights | Flight List
 :-------------------------------------:|:-------------------------------------------:|:------------------------------------------------:
 ![Launch Screen](images/launchScreen.png)  |  ![Search Flights](images/searchFlights.png) | ![Flight List](images/flightList.png)
+
+#### Error Handling 
+Missing fields | Duplicate Entry | Invalid Entry
+:-------------------------------------:|:-------------------------------------------:|:------------------------------------------------:
+![Missing fields](images/error3.png)  |  ![Duplicate Entry](images/error1.png) | ![Invalid Entry](images/error2.png)
 
 ## Flight Generator
 #### Request
@@ -278,7 +279,7 @@ Airport code for destination. Possible values: "DFW", "JFK", "LAX", "ORD"
     }
 ]
 ```
-## Make a network request in swift
+## Making a network request in swift
 
 ## Actionable button in swift
 
@@ -286,4 +287,4 @@ Airport code for destination. Possible values: "DFW", "JFK", "LAX", "ORD"
 
 ## Testing
 
-Making sure your implementation meet the requirements
+Making sure your implementation meet the requirements and is ready to ship.
