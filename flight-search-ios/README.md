@@ -12,7 +12,7 @@ Launch Screen | Search Flights | Flight List
 #### Error Handling 
 Missing fields | Duplicate Entry | Invalid Entry
 :-------------------------------------:|:-------------------------------------------:|:------------------------------------------------:
-![Missing fields](images/error3.png)  |  ![Duplicate Entry](images/error1.png) | ![Invalid Entry](images/error2.png)
+![Missing fields](images/Error3.png)  |  ![Duplicate Entry](images/Error1.png) | ![Invalid Entry](images/Error2.png)
 
 ## Flight Generator
 #### Request
@@ -285,11 +285,13 @@ GET async request  | POST request
 :-------------------------------------:|:-------------------------------------------:
 ![GET](images/GET.png)  |  ![POST](images/POST.png) 
 
-## Actionable button in swift
-There are 3 ways to make buttons actionable:
-1. Using IBAction
-2. Using segue way
-3. Programatically
+## Making a Button actionable in swift
 
+#### Directly connect viewcontroller in the storyboard
+![storyboard](images/storyboard_segue.png) 
 
-## Testing
+#### Using an IBAction
+![IBAction](images/IBAction.png) 
+
+#### Setting up a segue way programmatically
+![segueWay](images/segueWay.png) 
