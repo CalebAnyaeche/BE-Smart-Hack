@@ -10,6 +10,7 @@
 		2E7896AF2329DB5D00A247A7 /* URLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7896AE2329DB5D00A247A7 /* URLProtocol.swift */; };
 		2E7896B1232A02D000A247A7 /* FlightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7896B0232A02D000A247A7 /* FlightTableViewCell.swift */; };
 		2E7896B3232A0BF300A247A7 /* FlightSearch_UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7896B2232A0BF300A247A7 /* FlightSearch_UIView.swift */; };
+		2E7896B5232A0FB100A247A7 /* FlightSearchViewController_Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7896B4232A0FB100A247A7 /* FlightSearchViewController_Validations.swift */; };
 		2E99CEE32328AC510054045C /* FlightSearchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E99CEE22328AC510054045C /* FlightSearchConfiguration.swift */; };
 		2E99CEE72328B92E0054045C /* FlightListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E99CEE62328B92E0054045C /* FlightListTableViewController.swift */; };
 		2E99CEE92328C1550054045C /* BundleRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E99CEE82328C1550054045C /* BundleRegistry.swift */; };
@@ -39,6 +40,7 @@
 		2E7896AE2329DB5D00A247A7 /* URLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLProtocol.swift; sourceTree = "<group>"; };
 		2E7896B0232A02D000A247A7 /* FlightTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTableViewCell.swift; sourceTree = "<group>"; };
 		2E7896B2232A0BF300A247A7 /* FlightSearch_UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSearch_UIView.swift; sourceTree = "<group>"; };
+		2E7896B4232A0FB100A247A7 /* FlightSearchViewController_Validations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSearchViewController_Validations.swift; sourceTree = "<group>"; };
 		2E99CEE22328AC510054045C /* FlightSearchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSearchConfiguration.swift; sourceTree = "<group>"; };
 		2E99CEE62328B92E0054045C /* FlightListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightListTableViewController.swift; sourceTree = "<group>"; };
 		2E99CEE82328C1550054045C /* BundleRegistry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BundleRegistry.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				2EBF11EA232597BD0074D710 /* FlightSearchViewController.swift */,
+				2E7896B4232A0FB100A247A7 /* FlightSearchViewController_Validations.swift */,
 				2EBF11EC2325C3320074D710 /* FlightSearchViewController_DatePicker.swift */,
 				2EBF11EE2325C3790074D710 /* FlightSearchViewController_AirportPicker.swift */,
 				2E99CEE62328B92E0054045C /* FlightListTableViewController.swift */,
@@ -271,6 +274,7 @@
 				2E7896B3232A0BF300A247A7 /* FlightSearch_UIView.swift in Sources */,
 				2E7896B1232A02D000A247A7 /* FlightTableViewCell.swift in Sources */,
 				2E99CEE32328AC510054045C /* FlightSearchConfiguration.swift in Sources */,
+				2E7896B5232A0FB100A247A7 /* FlightSearchViewController_Validations.swift in Sources */,
 				2E99CEE72328B92E0054045C /* FlightListTableViewController.swift in Sources */,
 				2E99CEE92328C1550054045C /* BundleRegistry.swift in Sources */,
 				2EBF11EB232597BD0074D710 /* FlightSearchViewController.swift in Sources */,

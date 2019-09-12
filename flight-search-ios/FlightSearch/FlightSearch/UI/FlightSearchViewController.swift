@@ -26,6 +26,8 @@ class FlightSearchViewController: UIViewController {
 
         enum Strings {
             static let dateFormat = "yyyy-MM-dd"
+            static let host = "https://flight-engine-behack2019.herokuapp.com"
+            static let seugueWay = "flightSearchTapped"
         }
 
         enum Shadow {
@@ -59,7 +61,7 @@ class FlightSearchViewController: UIViewController {
             else {
                 return []
         }
-        let url = String("https://flight-engine-behack2019.herokuapp.com/flights?date=\(date)&origin=\(from)&destination=\(to)")
+        let url = String("\(Constants.Strings.host)/flights?date=\(date)&origin=\(from)&destination=\(to)")
         let flights = try? URLProtocol.init().makeGETRequest(urlString: url)
         return flights
 
@@ -70,9 +72,10 @@ class FlightSearchViewController: UIViewController {
     override public func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard
             let identifier = segue.identifier,
-            identifier == "flightSearchTapped",
+            identifier == Constants.Strings.seugueWay,
             let navController = segue.destination as? UINavigationController,
             let flightFlightVC = navController.children[0] as? FlightListTableViewController,
+            isSearchEntryValid() == true,
             let flights = getFlights()
             else {
                 return
