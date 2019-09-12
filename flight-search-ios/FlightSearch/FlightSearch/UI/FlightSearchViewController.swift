@@ -59,10 +59,15 @@ class FlightSearchViewController: UIViewController {
             let to = destinationTextField?.text,
             let date =  dateTextField?.text
             else {
+                showSystemFailureAlert()
                 return []
         }
         let url = String("\(Constants.Strings.host)/flights?date=\(date)&origin=\(from)&destination=\(to)")
         let flights = try? URLProtocol.init().makeGETRequest(urlString: url)
+
+        if flights?.count == 0 {
+            showSystemFailureAlert()
+        }
         return flights
 
     }

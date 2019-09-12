@@ -10,7 +10,6 @@ import UIKit
 struct URLProtocol {
 
 
-    // Example url: "https://flight-engine-behack2019.herokuapp.com/flights?date=2019-09-11&origin=LAX&destination=DFW"
     func makeGETRequest(urlString: String) throws  -> [Flight] {
         var flights: [Flight] = []
         guard let url = URL(string: urlString)
