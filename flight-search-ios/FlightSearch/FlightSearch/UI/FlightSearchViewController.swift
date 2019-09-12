@@ -53,6 +53,7 @@ class FlightSearchViewController: UIViewController {
     @IBAction func searchButtonTapped(_ sender: Any) {
     }
 
+    // MARK: - fetch flight data
     func getFlights() -> [Flight]? {
         guard
             let from = originTextField?.text,
@@ -88,7 +89,7 @@ class FlightSearchViewController: UIViewController {
         flightFlightVC.flights = flights
     }
 
-
+    // MARK: - Add shadow to container card view
    func addShadowToContainerCardView() {
         cardView?.addShadow(color: Constants.Shadow.color,
                             offset: Constants.Shadow.offset,
