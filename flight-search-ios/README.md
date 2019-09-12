@@ -1,6 +1,17 @@
 # flight-search-ios
 
-A simple flight search app that gives you a detailed list of flights to your favorite destination.
+A simple iOS app that gives you a detailed list of flights to your favorite destination.
+
+
+## Getting started
+
+First, you need to be working on a MacBook or MacMini.
+
+- Then install XCode 11/10
+- Fork the git repo
+- Then open `FlightSearch.xcodeproj` in XCode.
+
+Once XCode is open, hit the RUN button to build the app.
 
 
 ## UI
