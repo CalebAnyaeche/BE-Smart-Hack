@@ -12,7 +12,7 @@ Attendees and hacks must adhere to **all** event rules and policies. We reserve 
 * **25%** - Likelihood of your app improving customer experience, boosting operational efficiences, improving employee performance or enhancing brand image
 * **25%** - Look and Feel
 * **25%** - Functionality
-* **25%**  - API Utilization (use our [ Flight Engine](../) or some other source of data)
+* **25%**  - API Utilization (use our [ Flight Engine](https://github.com/AmericanAirlines/Flight-Engine/wiki/BE-Smart-2019) or some other source of data)
 
 ## Prizes
 Each team member from the top three teams will receive prizes according to the following:
