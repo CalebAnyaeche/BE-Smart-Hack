@@ -9,8 +9,10 @@ import UIKit
 
 struct URLProtocol {
 
+    // MARK: - Make an asynchronous GET request
 
-    // Example url: "https://flight-engine-behack2019.herokuapp.com/flights?date=2019-09-11&origin=LAX&destination=DFW"
+    /// Makes an asynchronous GET request to the Flight Engine and return an array of flights
+    /// - Parameter urlString: url string for your API
     func makeGETRequest(urlString: String) throws  -> [Flight] {
         var flights: [Flight] = []
         guard let url = URL(string: urlString)
@@ -21,10 +23,8 @@ struct URLProtocol {
         // semaphone
         let semaphone = DispatchSemaphore(value: 0)
         session.dataTask(with: url) { (data, response, error) in
-            if let response = response {
-                print(response)
-                // response gives you access to status codes like 200
-            }
+            // response - gives you access to status codes like 200
+            // error - returns errrors
             if let data = data {
                 print(data)
                 do {
@@ -40,9 +40,11 @@ struct URLProtocol {
         return flights
     }
 
+    // MARK: - Make a POST request
 
-    // Example url: "https://jsonplaceholder.typicode.com/post"
-    // Example params = ["username": "yoyo", "message": "helloWorld"]
+    /// Makes and POST request
+    /// - Parameter urlString: url string
+    /// - Parameter params: dictionary of parameters
     func makePOSTRequest(urlString: String, params: [String: String]) -> Any? {
         var jsonData: Any?
         guard

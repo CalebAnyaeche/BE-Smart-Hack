@@ -1,17 +1,29 @@
 # flight-search-ios
 
-A simple flight search app that gives you a list flights to your favorite destination.
+A simple iOS app that gives you a detailed list of flights to your favorite destination.
 
-# Requirement
-- how to search for flight.
-- How to display
-- Flight of flights
+
+## Getting started
+
+First, you need to be working on a MacBook or MacMini.
+
+- Then install XCode 11/10
+- Fork the git repo
+- Then open `FlightSearch.xcodeproj` in XCode.
+
+Once XCode is open, hit the RUN button to build the app.
+
 
 ## UI
 
 Launch Screen | Search Flights | Flight List
 :-------------------------------------:|:-------------------------------------------:|:------------------------------------------------:
 ![Launch Screen](images/launchScreen.png)  |  ![Search Flights](images/searchFlights.png) | ![Flight List](images/flightList.png)
+
+#### Error Handling 
+Missing fields | Duplicate Entry | Invalid Entry
+:-------------------------------------:|:-------------------------------------------:|:------------------------------------------------:
+![Missing fields](images/Error3.png)  |  ![Duplicate Entry](images/Error1.png) | ![Invalid Entry](images/Error2.png)
 
 ## Flight Generator
 #### Request
@@ -37,7 +49,8 @@ Airport code for destination. Possible values: "DFW", "JFK", "LAX", "ORD"
 
 #### Response
 
-```[
+```
+[
     {
         "flightNumber": "4923",
         "origin": {
@@ -105,185 +118,22 @@ Airport code for destination. Possible values: "DFW", "JFK", "LAX", "ORD"
             },
             "speed": 400
         }
-    },
-    {
-        "flightNumber": "7075",
-        "origin": {
-            "code": "LAX",
-            "city": "Los Angeles",
-            "location": {
-                "latitude": 33.9416,
-                "longitude": 118.4085
-            }
-        },
-        "destination": {
-            "code": "DFW",
-            "city": "Dallas-Fort Worth",
-            "location": {
-                "latitude": 32.8998,
-                "longitude": 97.0403
-            }
-        },
-        "distance": 1234,
-        "duration": {
-            "locale": "3h 6m",
-            "hours": 3,
-            "minutes": 6
-        },
-        "aircraft": {
-            "model": "738",
-            "passengerCapacity": {
-                "total": 160,
-                "main": 144,
-                "first": 16
-            },
-            "speed": 400
-        }
-    },
-    {
-        "flightNumber": "5701",
-        "origin": {
-            "code": "LAX",
-            "city": "Los Angeles",
-            "location": {
-                "latitude": 33.9416,
-                "longitude": 118.4085
-            }
-        },
-        "destination": {
-            "code": "DFW",
-            "city": "Dallas-Fort Worth",
-            "location": {
-                "latitude": 32.8998,
-                "longitude": 97.0403
-            }
-        },
-        "distance": 1234,
-        "duration": {
-            "locale": "3h 18m",
-            "hours": 3,
-            "minutes": 18
-        },
-        "aircraft": {
-            "model": "757",
-            "passengerCapacity": {
-                "total": 176,
-                "main": 160,
-                "first": 16
-            },
-            "speed": 380
-        }
-    },
-    {
-        "flightNumber": "5190",
-        "origin": {
-            "code": "LAX",
-            "city": "Los Angeles",
-            "location": {
-                "latitude": 33.9416,
-                "longitude": 118.4085
-            }
-        },
-        "destination": {
-            "code": "DFW",
-            "city": "Dallas-Fort Worth",
-            "location": {
-                "latitude": 32.8998,
-                "longitude": 97.0403
-            }
-        },
-        "distance": 1234,
-        "duration": {
-            "locale": "3h 10m",
-            "hours": 3,
-            "minutes": 10
-        },
-        "aircraft": {
-            "model": "738",
-            "passengerCapacity": {
-                "total": 160,
-                "main": 144,
-                "first": 16
-            },
-            "speed": 400
-        }
-    },
-    {
-        "flightNumber": "5295",
-        "origin": {
-            "code": "LAX",
-            "city": "Los Angeles",
-            "location": {
-                "latitude": 33.9416,
-                "longitude": 118.4085
-            }
-        },
-        "destination": {
-            "code": "DFW",
-            "city": "Dallas-Fort Worth",
-            "location": {
-                "latitude": 32.8998,
-                "longitude": 97.0403
-            }
-        },
-        "distance": 1234,
-        "duration": {
-            "locale": "3h 28m",
-            "hours": 3,
-            "minutes": 28
-        },
-        "aircraft": {
-            "model": "757",
-            "passengerCapacity": {
-                "total": 176,
-                "main": 160,
-                "first": 16
-            },
-            "speed": 380
-        }
-    },
-    {
-        "flightNumber": "8080",
-        "origin": {
-            "code": "LAX",
-            "city": "Los Angeles",
-            "location": {
-                "latitude": 33.9416,
-                "longitude": 118.4085
-            }
-        },
-        "destination": {
-            "code": "DFW",
-            "city": "Dallas-Fort Worth",
-            "location": {
-                "latitude": 32.8998,
-                "longitude": 97.0403
-            }
-        },
-        "distance": 1234,
-        "duration": {
-            "locale": "3h 13m",
-            "hours": 3,
-            "minutes": 13
-        },
-        "aircraft": {
-            "model": "738",
-            "passengerCapacity": {
-                "total": 160,
-                "main": 144,
-                "first": 16
-            },
-            "speed": 400
-        }
     }
 ]
 ```
-## Make a network request in swift
+## Making a network request in swift
 
-## Actionable button in swift
+GET async request  | POST request
+:-------------------------------------:|:-------------------------------------------:
+![GET](images/GET.png)  |  ![POST](images/POST.png) 
 
-## Loading data from response
+## Making a Button actionable in swift
 
-## Testing
+#### Directly connect viewcontroller in the storyboard
+![storyboard](images/storyboard_segue.png) 
 
-Making sure your implementation meet the requirements
+#### Using an IBAction
+![IBAction](images/IBAction.png) 
+
+#### Setting up a segue way programmatically
+![segueWay](images/segueWay.png) 

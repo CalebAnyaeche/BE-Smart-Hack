@@ -26,7 +26,7 @@ extension FlightSearchViewController {
         }
 
         if from == to {
-            let alert = createAlert(message: "origin and destinations airport must be different")
+            let alert = createAlert(message: "Origin and destinations airports must be different")
             self.present(alert, animated: true, completion: nil)
             return false
         }
@@ -45,12 +45,16 @@ extension FlightSearchViewController {
         return true
     }
 
-    func createAlert(message: String) -> UIAlertController {
-        let alert = UIAlertController(title: "Invalid Entry", message: message, preferredStyle: .alert)
+    func createAlert(title: String = "Invalid Entry", message: String) -> UIAlertController {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
 
         return alert
+    }
 
+    func showSystemFailureAlert() {
+        let alert = createAlert(title: "Our system is currently unavilable", message: "Please try later")
+        self.present(alert, animated: true, completion: nil)
     }
 
 }

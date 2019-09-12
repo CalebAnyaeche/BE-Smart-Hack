@@ -53,16 +53,22 @@ class FlightSearchViewController: UIViewController {
     @IBAction func searchButtonTapped(_ sender: Any) {
     }
 
+    // MARK: - fetch flight data
     func getFlights() -> [Flight]? {
         guard
             let from = originTextField?.text,
             let to = destinationTextField?.text,
             let date =  dateTextField?.text
             else {
+                showSystemFailureAlert()
                 return []
         }
         let url = String("\(Constants.Strings.host)/flights?date=\(date)&origin=\(from)&destination=\(to)")
         let flights = try? URLProtocol.init().makeGETRequest(urlString: url)
+
+        if flights?.count == 0 {
+            showSystemFailureAlert()
+        }
         return flights
 
     }
@@ -83,7 +89,7 @@ class FlightSearchViewController: UIViewController {
         flightFlightVC.flights = flights
     }
 
-
+    // MARK: - Add shadow to container card view
    func addShadowToContainerCardView() {
         cardView?.addShadow(color: Constants.Shadow.color,
                             offset: Constants.Shadow.offset,
