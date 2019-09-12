@@ -486,6 +486,18 @@ private void fetchFlightData() {
         });
     }
 ```
+## Making a Button actionable
+
+
+```
+ Button findFlightsButton = findViewById(R.id.find_flights_button);
+        findFlightsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                fetchFlightData();
+            }
+        });
+```
 
 ## Testing
 
