@@ -84,40 +84,6 @@ Airport code for destination. Possible values: "DFW", "JFK", "LAX", "ORD"
             },
             "speed": 400
         }
-    },
-    {
-        "flightNumber": "5446",
-        "origin": {
-            "code": "LAX",
-            "city": "Los Angeles",
-            "location": {
-                "latitude": 33.9416,
-                "longitude": 118.4085
-            }
-        },
-        "destination": {
-            "code": "DFW",
-            "city": "Dallas-Fort Worth",
-            "location": {
-                "latitude": 32.8998,
-                "longitude": 97.0403
-            }
-        },
-        "distance": 1234,
-        "duration": {
-            "locale": "3h 16m",
-            "hours": 3,
-            "minutes": 16
-        },
-        "aircraft": {
-            "model": "738",
-            "passengerCapacity": {
-                "total": 160,
-                "main": 144,
-                "first": 16
-            },
-            "speed": 400
-        }
     }
 ]
 ```
