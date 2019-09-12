@@ -281,10 +281,15 @@ Airport code for destination. Possible values: "DFW", "JFK", "LAX", "ORD"
 ```
 ## Making a network request in swift
 
-## Actionable button in swift
+GET async request  | POST request
+:-------------------------------------:|:-------------------------------------------:
+![GET](images/GET.png)  |  ![POST](images/POST.png) 
 
-## Loading data from response
+## Actionable button in swift
+There are 3 ways to make buttons actionable:
+1. Using IBAction
+2. Using segue way
+3. Programatically
+
 
 ## Testing
-
-Making sure your implementation meet the requirements and is ready to ship.
