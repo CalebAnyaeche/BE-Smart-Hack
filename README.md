@@ -55,7 +55,7 @@ Here are three sample applications to help you get started. These applications m
 
 - [iOS](https://github.com/carolinenakaye/BE-Smart-Hack/tree/master/flight-search-ios) 
 - [Android](https://github.com/carolinenakaye/BE-Smart-Hack/tree/master/flight-search-android)
-- [Web](https://github.com/carolinenakaye/BE-Smart-Hack/tree/master/flight-search-web)
+- [Web](https://github.com/jordanculver/Flight-Finder-Web-Demo/tree/68376388881613f51e3e28c7c96b844977b11cb3)
 
 ## Sponsors
 Learn more about each sponsor, their APIs, challenges and prizes by clicking on the hyperlinks below.
