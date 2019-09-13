@@ -3,7 +3,21 @@
 A simple iOS app that gives you a detailed list of flights to your favorite destination.
 
 
-## Getting started
+## Table of Contents
+
+- [Getting started](#Getting_started)
+- [What does the app look like?](#UI)
+    - [Error Handling](#errors)
+- [Flight Generator API](#running_tests)
+    - [Request](#request)
+    - [Response](#response)
+- [Making a network request in swift](#network_request)
+- [Making a Button actionable in swift](#network_request)
+    - [Directly connect viewcontroller in the storyboard](#storyboard)
+    - [Using an IBAction](#ibaction)
+    - [Using a segue way](#segue)
+
+## Getting started <a name="Getting_started"></a>
 
 First, you need to be working on a MacBook or MacMini.
 
@@ -14,19 +28,19 @@ First, you need to be working on a MacBook or MacMini.
 Once XCode is open, hit the RUN button to build the app.
 
 
-## UI
+## What does the app look like? <a name="UI"></a>
 
 Launch Screen | Search Flights | Flight List
 :-------------------------------------:|:-------------------------------------------:|:------------------------------------------------:
 ![Launch Screen](images/launchScreen.png)  |  ![Search Flights](images/searchFlights.png) | ![Flight List](images/flightList.png)
 
-#### Error Handling 
+#### Error Handling <a name="errors"></a>
 Missing fields | Duplicate Entry | Invalid Entry
 :-------------------------------------:|:-------------------------------------------:|:------------------------------------------------:
 ![Missing fields](images/Error3.png)  |  ![Duplicate Entry](images/Error1.png) | ![Invalid Entry](images/Error2.png)
 
-## Flight Generator
-#### Request
+## Flight Generator API <a name="API"></a>
+#### Request <a name="request"></a>
 
 GET Flights
 
@@ -47,7 +61,7 @@ destination	"dfw"
 Airport code for destination. Possible values: "DFW", "JFK", "LAX", "ORD"
 ```
 
-#### Response
+#### Response <a name="response"></a>
 
 ```
 [
@@ -87,19 +101,19 @@ Airport code for destination. Possible values: "DFW", "JFK", "LAX", "ORD"
     }
 ]
 ```
-## Making a network request in swift
+## Making a network request in swift <a name="network_request"></a>
 
 GET async request  | POST request
 :-------------------------------------:|:-------------------------------------------:
 ![GET](images/GET.png)  |  ![POST](images/POST.png) 
 
-## Making a Button actionable in swift
+## Making a Button actionable in swift <a name="Button"></a>
 
-#### Directly connect viewcontroller in the storyboard
+#### Directly connect viewcontroller in the storyboard <a name="storyboard"></a>
 ![storyboard](images/storyboard_segue.png) 
 
-#### Using an IBAction
+#### Using an IBAction <a name="ibaction"></a>
 ![IBAction](images/IBAction.png) 
 
-#### Setting up a segue way programmatically
+#### Setting up a segue way programmatically <a name="segue"></a>
 ![segueWay](images/segueWay.png) 
