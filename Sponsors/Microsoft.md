@@ -12,6 +12,9 @@ Dynamics 365: is a combination of CRM and ERP. Microsoft's productivity applicat
 
 We give the developer instant capabilities through extensive services for building applications functionality very quickly. Get your account now for FREE -  https://azure.microsoft.com/en-us/free/
 
+# Vision for travel overview
+[Vision for Travel](https://github.com/carolinenakaye/BE-Smart-Hack/blob/master/Sponsors/MSFT_VisionForTravel_IG_R3)
+
 # Challenge Info
 <!-- What are you looking for? How will teams be judged? Enter text below:  -->
 
